@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@100&family=Lexend+Deca:wght@300&family=Roboto:wght@300&display=swap');
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  .box {
+    height: 431px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+
+  }
+
+  #first {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 14px 0px 0px 14px;
+  }
+
+  #second {
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  #third {
+    background-color: hsl(179, 100%, 13%);
+    border-radius:  0px 14px 14px  0px ;
+  }
+
+  .card {
+    width: 200px;
+    padding: 41px;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 1px;
+    padding: 7px 0px 7px 0px;
+  }
+
+  p {
+    color: #e7e3e3;
+  }
+
+  input {
+    width: 109px;
+    height: 42px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: 600px;
+  }
+
+  .one {
+    color: hsl(31, 77%, 52%);
+  }
+
+  .two {
+    color: hsl(184, 100%, 22%);
+  }
+
+  .three {
+    color: hsl(179, 100%, 13%);
+  }
+
+  .one:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+  }
+
+  .two:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+  }
+
+  .three:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+  }
