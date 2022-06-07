@@ -16,8 +16,18 @@
     display: flex;
     justify-content: center;
     border-radius: 15px;
+    flex-wrap: wrap;
 
   }
+@media screen and (max-width:500px) {
+    #first {
+        border-radius: 14px 14px 0px 0px;
+    }
+
+    #third {
+        border-radius: 14px 14px 0px 0px;
+    }
+}
 
   #first {
     background-color: hsl(31, 77%, 52%);
